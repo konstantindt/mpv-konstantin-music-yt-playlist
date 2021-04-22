@@ -13,6 +13,8 @@ Then:
 ```bash
 $ # go to mpv-konstantin-music-yt-playlist
 $ cd path/to/mpv-konstantin-music-yt-playlist
+$ # avoid accidental commit of API key
+$ git update-index --assume-unchanged config/index.config.js 
 $ # set-up run from anywhere
 $ npm install -g .
 $ # run

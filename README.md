@@ -4,6 +4,11 @@ Proof of concept to play my music YouTube playlist using [mpv.io](https://mpv.io
 
 The script writes a shuffled [M3U](https://wikipedia.org/wiki/M3U) with my music playlist video links, build from the data obtained from [PlaylistItems | YouTube Data API](https://developers.google.com/youtube/v3/docs/playlistItems), and plays with [mpv.io](https://mpv.io/).
 
+## Dependencies
+
+* [mpv.io](https://mpv.io/)
+* [youtube-dl](https://youtube-dl.org/)
+
 ## Usage
 
 First [obtain a YouTube API key](https://www.slickremix.com/docs/get-api-key-for-youtube/) and replace `PLACEHOLDER` with it at `@root/config/index.config`.
